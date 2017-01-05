@@ -11,19 +11,22 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
-    <body>
+    <body><center>
         <h1>User Info</h1>
         <form action="jspbean.jsp">
-            <label id="lblnm">Username:</label><input type="text" name="name"><br>
-            <label id="lblbd">Birth date:</label><input type="text" name="bdate"><br>
-            <label id="lblem">Email:</label><input type="text" name="email"><br>
-            <label id="lblgn">Gender:</label>Male<input type="radio" value="male" name="gender"><br>
-                                             Female<input type="radio" value="Female" name="gender"><br>
-            <label id="lblfd">Favourite Food:</label>Veg<input type="radio" value="veg" name="favfood"><br>
-                                             Non-veg<input type="radio" value="nonveg" name="favfood"><br>
+            <table border="1">
+            <tr><td><label id="lblnm">Username:</label></td><td><input type="text" name="name"></td></tr>
+            <tr><td><label id="lblbd">Birth date:</label></td><td><input type="text" name="bdate"></td></tr>
+            <tr><td><label id="lblem">Email:</label></td><td><input type="text" name="email"></td></tr>
+            <tr><td><label id="lblgn">Gender:</label></td><td>Male<input type="radio" value="male" name="gender">
+                                             Female<input type="radio" value="Female" name="gender"></td></tr>
+            <tr><td><label id="lblfd">Favourite Food:</label></td><td>Veg<input type="radio" value="veg" name="favfood">
+                                             Non-veg<input type="radio" value="nonveg" name="favfood"></td></tr>
+            </table><br><br>
                                              <input type="submit" value="Submit">                                        
                                                <input type="reset" value="Reset">          
             
         </form>
+    </center>
     </body>
 </html>
